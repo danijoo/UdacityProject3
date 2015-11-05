@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:id="@+id/list_widget_item_root"
+    android:padding="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:clickable="false"
+            android:textColor="@android:color/black"
+            android:id="@+id/list_widget_item_hostname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/TeamNames"
+            tools:text="Tottenham Hotspur Fc" />
+
+        <LinearLayout
+            android:clickable="false"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:clickable="false"
+                android:textColor="@android:color/black"
+                android:id="@+id/list_widget_item_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/Score"
+                tools:text="3 - 1" />
+
+            <TextView
+                android:clickable="false"
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/list_widget_item_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="someday" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:clickable="false"
+            android:textColor="@android:color/black"
+            android:id="@+id/list_widget_item_awayname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/TeamNames"
+            tools:text="Aston Villa FC" />
+    </LinearLayout>
+</LinearLayout>
