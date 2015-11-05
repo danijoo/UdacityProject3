@@ -7,3 +7,4 @@
 * Fixed crash if a book has no author when adding a book
 * Fixed crash in details view when book has no author
 * Fixed crash on configuration change in details screen (caused by ActionProvider)
+* Removed back button in details fragment
