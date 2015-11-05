@@ -3,3 +3,5 @@
 * Fixed missing whitespace in share_text string
 * Changed about fragment appearance
 * Fixed NPE when rotating device in BookDetail fragment by retaining it
+
+* Fixed crash if a book has no author
